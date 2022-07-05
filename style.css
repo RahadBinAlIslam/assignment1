@@ -1,13 +1,18 @@
 body {
+    position: relative;
     margin: 0%;
 }
 
-h1 {
+.words {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    width: 100%;
     text-align: center;
-    line-height: 10px;
+    line-height: 20px;
 }
-
-
 .flexible-container {
     width: 100%;
     display: inline;
@@ -20,14 +25,13 @@ h1 {
 }
 
 .white-color {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 100;
     color: white;
 }
 
 .half-width img {
     width: 100%;
-    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
 }
 
 footer {
@@ -36,4 +40,27 @@ footer {
     background-color: black;
     text-align: center;
     margin: 0%;
+}
+.link-button {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    position: absolute;
+    top: 175%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 81, 0);
+    padding: 30px 30px;
+    border-radius: 5px;
+    color: white;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-family: Pop;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
