@@ -1,0 +1,39 @@
+body {
+    margin: 0%;
+}
+
+h1 {
+    text-align: center;
+    line-height: 10px;
+}
+
+
+.flexible-container {
+    width: 100%;
+    display: inline;
+    margin-bottom: 150px;
+}
+
+.orange-color {
+    font-family: 'Lobster', cursive;
+    color: rgb(242, 65, 65);
+}
+
+.white-color {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+.half-width img {
+    width: 100%;
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+}
+
+footer {
+    padding: 1%;
+    text-align: center;
+    background-color: black;
+    text-align: center;
+    margin: 0%;
+}
