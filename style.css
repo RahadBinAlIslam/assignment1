@@ -238,7 +238,9 @@ p {
 }
 .initial{
     text-align: center;
-    background: url(images/hero.png), linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0));
+    background-image: url(images/hero.png), linear-gradient(to top, black, white);
+    background-color: rgba(0, 0, 0, 0.1);
+    background-blend-mode: multiply;
     background-size: cover;
     height: 60vh;
     background-repeat: no-repeat;
@@ -256,6 +258,8 @@ p {
 }
 
 .initial h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
     font-size: 50px;
     line-height: 20px;
 }
