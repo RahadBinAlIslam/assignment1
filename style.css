@@ -1,22 +1,24 @@
 body {
-    position: relative;
     margin: 0%;
 }
 
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    line-height: 20px;
+    font-weight: bolder;
+}
+
 .words {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-size: 50px;
     width: 100%;
     text-align: center;
     line-height: 20px;
 }
+
 .flexible-container {
-    width: 100%;
-    display: inline;
-    margin-bottom: 150px;
+    padding: 5% 15% 5% 15%;
+    display: flex;
 }
 
 .orange-color {
@@ -30,37 +32,85 @@ body {
     color: white;
 }
 
-.half-width img {
-    width: 100%;
+.gray-color {
+    color: #5b5b5b;
+    font-weight: 500;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
 }
 
 footer {
     padding: 1%;
     text-align: center;
     background-color: black;
-    text-align: center;
     margin: 0%;
 }
 .link-button {
     font-family: 'Inter', sans-serif;
     text-decoration: none;
-    position: absolute;
-    top: 175%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgb(255, 81, 0);
-    padding: 30px 30px;
+    background-color: rgb(251, 69, 69);
+    font-weight: bold;
+    padding: 10px 20px;
     border-radius: 5px;
     color: white;
 }
 
 p {
     font-family: 'Poppins', sans-serif;
-    font-family: Pop;
+}
+.second-row {
+    top: 50%;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
     text-align: center;
-    line-height: 50px;
-    position: absolute;
-    top: 95%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+}
+
+.align-right{
+    text-align: right;
+}
+.last h1{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.last p{
+    font-family: 'Inter', sans-serif;
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+    width: 25%;
+    margin-left: 600px;
+}
+
+.validation{
+    background-color: rgb(246, 235, 173);
+    justify-content: center;
+    padding: 100px 200px 100px 200px;
+    display: flex;
+    width: 30%;
+    margin: 50px 0px 150px 350px;
+}
+
+#email{
+    background-color: #bbbbbb;
+    border-color: rgba(238, 236, 236, 0.913);
+    box-shadow: none;
+    padding: 12px;
+    margin-right: -5px;
+    color: #5b5b5b;
+}
+
+.linked-button {
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    background-color: rgb(251, 69, 69);
+    font-weight: bold;
+    padding: 10px 40px 12px 40px;
+    color: white;
 }
