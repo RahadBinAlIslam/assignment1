@@ -16,6 +16,10 @@ body {
     line-height: 20px;
 }
 
+.half-width{
+    width: 85%;
+}
+
 .flexible-container {
     padding: 5% 15% 5% 15%;
     display: flex;
@@ -128,7 +132,7 @@ p {
     margin-left: 555px;
     margin-top: -450px;
     background-color: rgb(255, 89, 89, 0.1);
-    padding: 100px 200px 100px 200px;
+    padding: 100px 200px 75px 200px;
 }
 
 #right{
