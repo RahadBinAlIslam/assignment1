@@ -103,12 +103,13 @@ p {
 }
 
 #email{
-    background-color: #bbbbbb;
-    border-color: #bbbbbb;
-    box-shadow: none;
+    background-color: #c8c8c8;
     padding: 12px;
+    width: 200px;
     margin-right: -5px;
     color: #5b5b5b;
+    border: none;
+    outline: none;
 }
 
 .linked-button {
@@ -116,8 +117,9 @@ p {
     text-decoration: none;
     background-color: rgb(251, 69, 69);
     font-weight: bold;
-    padding: 10px 40px 13px 40px;
+    padding: 8px 40px 11px 40px;
     color: white;
+    border: none;
 }
 
 #left{
@@ -181,11 +183,12 @@ p {
 #second {
     width: 15%;
     background-color: rgb(253, 221, 221);
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 10px 5px 10px 5px;
-    margin-left: 360px;
+    margin-left: 370px;
     margin-top: -160px;
-    color: rgb(250, 128, 128);
+    border: 3px solid rgb(251, 100, 100);
+    color: rgb(251, 100, 100);
 }
 
 #third {
@@ -193,7 +196,7 @@ p {
     background-color: rgb(225, 225, 225);
     border-radius: 10px;
     padding: 10px 5px 10px 5px;
-    margin-left: 660px;
+    margin-left: 665px;
     margin-top: -160px;
 }
 
@@ -225,18 +228,23 @@ p {
 }
 .aligned-center{
     margin-top: 50px;
-    margin-left: 688px;
-    margin-bottom: 20px;
+    margin-left: 520px;
+    margin-bottom: 30px;
+    width: 35%;
+    border-bottom: 1px solid rgb(188, 188, 188);
 }
 
 #input {
+    font-family: 'Poppins', sans-serif;
     text-align: center;
-    border-color: #bbbbbb;
-    box-shadow: none;
     padding: 12px;
-    margin-right: -5px;
-    color: #5b5b5b;
+    margin-left: 10vw;
+    color: #939393; 
+    font-size: 1vw;
+    border: none;
+    outline: none;
 }
+
 .divided{
     margin-top: -150px;
 }
@@ -264,6 +272,6 @@ p {
 .initial h1{
     font-family: 'Inter', sans-serif;
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 70px;
     line-height: 20px;
 }
